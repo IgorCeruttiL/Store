@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Store.Domain.Entities
 {
-    internal class Order : Entity
+    public class Order : Entity
     {
         public Order(Customer customer, decimal deliveryFee, Discount discount)
         {

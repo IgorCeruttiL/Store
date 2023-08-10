@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Store.Domain.Entities
 {
-    internal class Customer : Entity
+    public class Customer : Entity
     {
         public Customer(string name, string email)
         {

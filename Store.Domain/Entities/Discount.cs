@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Store.Domain.Entities
 {
-    internal class Discount : Entity
+    public class Discount : Entity
     {
         public Discount(decimal amount, DateTime expireDate)
         {

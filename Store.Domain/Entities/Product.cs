@@ -3,7 +3,7 @@
 
 namespace Store.Domain.Entities
 {
-    internal class Product : Entity
+    public class Product : Entity
     {
         public Product(string title, decimal price, bool active)
         {

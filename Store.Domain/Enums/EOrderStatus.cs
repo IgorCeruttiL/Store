@@ -1,7 +1,7 @@
 ﻿
 namespace Store.Domain.Enums
 {
-    internal enum EOrderStatus
+    public enum EOrderStatus
     {
         WaitingPayment = 1,
         WaitingDelivery = 2,

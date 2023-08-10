@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Store.Domain.Entities
 {
-    internal class Entity : Notifiable
+    public class Entity : Notifiable
     {
         public Entity()
         {
